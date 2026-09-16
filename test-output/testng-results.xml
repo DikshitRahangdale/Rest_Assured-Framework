@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="31" passed="31" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-16T12:11:59 IST" name="Suite" finished-at="2026-09-16T12:13:15 IST" duration-ms="75698">
+    <groups>
+    </groups>
+    <test started-at="2026-09-16T12:11:59 IST" name="apiTest" finished-at="2026-09-16T12:13:15 IST" duration-ms="75698">
+      <class name="api.test.MultipleUser">
+        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:04 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-16T12:12:10 IST" duration-ms="6299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jsmith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jsmith@example.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[K#92vL!84m]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[+1-555-0143]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createsMultipleUsers -->
+        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:11 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-16T12:12:12 IST" duration-ms="1372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[erodriguez]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Elena]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rodriguez]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[erodriguez@example.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Tr0ub4dor&3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[+1-555-0182]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createsMultipleUsers -->
+        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:12 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-16T12:12:13 IST" duration-ms="1187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mchen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Michael]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chen]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mchen@example.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C#3n!S3cur3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[+1-555-0199]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createsMultipleUsers -->
+        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:13 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-16T12:12:14 IST" duration-ms="1170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[akumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Amit]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[akumar@example.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[K!m@r2026x]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[+1-555-0128]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createsMultipleUsers -->
+        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:14 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-16T12:12:16 IST" duration-ms="1196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[spatel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sarah]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Patel]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[spatel@example.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[P@tel!98Sec]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[+1-555-0174]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createsMultipleUsers -->
+        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:16 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-16T12:12:17 IST" duration-ms="1239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1006]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dkim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[David]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kim]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dkim@example.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Dk!m#Secure1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[+1-555-0165]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createsMultipleUsers -->
+        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:17 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-16T12:12:18 IST" duration-ms="1117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1007]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lmartinez]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Lucia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Martinez]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[lmartinez@example.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[L!M@rt!n3z8]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[+1-555-0131]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createsMultipleUsers -->
+        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:18 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-16T12:12:19 IST" duration-ms="1116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1008]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bwong]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Brian]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Wong]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[bwong@example.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[W0ng!P@ss99]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[+1-555-0110]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createsMultipleUsers -->
+        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:19 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-16T12:12:20 IST" duration-ms="1179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1009]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tjones]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tara]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jones]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tjones@example.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Tj0n3s#2026]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[+1-555-0157]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createsMultipleUsers -->
+        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:21 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-16T12:12:22 IST" duration-ms="1438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jsmith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlluser -->
+        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:22 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-16T12:12:24 IST" duration-ms="1171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[erodriguez]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlluser -->
+        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:24 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-16T12:12:25 IST" duration-ms="1149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mchen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlluser -->
+        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:25 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-16T12:12:26 IST" duration-ms="1105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlluser -->
+        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:26 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-16T12:12:27 IST" duration-ms="1172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[spatel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlluser -->
+        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:27 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-16T12:12:28 IST" duration-ms="1157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dkim]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlluser -->
+        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:28 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-16T12:12:29 IST" duration-ms="1225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lmartinez]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlluser -->
+        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:29 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-16T12:12:31 IST" duration-ms="1119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bwong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlluser -->
+        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:31 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-16T12:12:32 IST" duration-ms="1594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tjones]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlluser -->
+        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:46 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-16T12:12:48 IST" duration-ms="1344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jsmith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllUser -->
+        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:48 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-16T12:12:49 IST" duration-ms="1164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[erodriguez]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllUser -->
+        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:49 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-16T12:12:50 IST" duration-ms="1193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mchen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllUser -->
+        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:50 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-16T12:12:51 IST" duration-ms="1136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllUser -->
+        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:51 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-16T12:12:52 IST" duration-ms="1135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[spatel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllUser -->
+        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:52 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-16T12:12:54 IST" duration-ms="1273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dkim]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllUser -->
+        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:54 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-16T12:12:55 IST" duration-ms="1156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lmartinez]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllUser -->
+        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:55 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-16T12:12:56 IST" duration-ms="1206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bwong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllUser -->
+        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@1fe8d51b]" started-at="2026-09-16T12:12:56 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-16T12:12:57 IST" duration-ms="1204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tjones]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllUser -->
+      </class> <!-- api.test.MultipleUser -->
+      <class name="api.test.UserTest">
+        <test-method is-config="true" signature="setUpData()[pri:0, instance:api.test.UserTest@1af7f54a]" started-at="2026-09-16T12:12:57 IST" name="setUpData" finished-at="2026-09-16T12:12:59 IST" duration-ms="1573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpData -->
+        <test-method signature="testUserCreation()[pri:1, instance:api.test.UserTest@1af7f54a]" started-at="2026-09-16T12:12:59 IST" name="testUserCreation" finished-at="2026-09-16T12:13:01 IST" duration-ms="1773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserCreation -->
+        <test-method signature="testGetUser()[pri:2, instance:api.test.UserTest@1af7f54a]" started-at="2026-09-16T12:13:01 IST" name="testGetUser" finished-at="2026-09-16T12:13:02 IST" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="updateUserInfo()[pri:3, instance:api.test.UserTest@1af7f54a]" started-at="2026-09-16T12:13:02 IST" name="updateUserInfo" finished-at="2026-09-16T12:13:12 IST" duration-ms="10371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserInfo -->
+        <test-method signature="deleteUserinfo()[pri:4, instance:api.test.UserTest@1af7f54a]" started-at="2026-09-16T12:13:12 IST" name="deleteUserinfo" finished-at="2026-09-16T12:13:15 IST" duration-ms="2448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserinfo -->
+      </class> <!-- api.test.UserTest -->
+    </test> <!-- apiTest -->
+  </suite> <!-- Suite -->
+</testng-results>
