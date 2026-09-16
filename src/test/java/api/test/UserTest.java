@@ -28,7 +28,7 @@ public class UserTest {
 
 	@Test(priority = 1)
 	public void testUserCreation() throws IOException {
-		System.out.println("=========Post Request=======");
+		System.out.println("=========Post Requests=======");
 		Response response = UserEndPoints.createUser(userPayload); 
 		response.then().statusCode(200).log().all();
 	}
