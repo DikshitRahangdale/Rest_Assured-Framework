@@ -2,12 +2,16 @@
 <testng-results ignored="0" total="31" passed="31" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-17T22:26:27 IST" name="Suite" finished-at="2026-09-17T22:27:27 IST" duration-ms="60336">
+  <suite started-at="2026-09-18T12:02:49 IST" name="Suite" finished-at="2026-09-18T12:03:42 IST" duration-ms="52563">
     <groups>
     </groups>
-    <test started-at="2026-09-17T22:26:27 IST" name="apiTest" finished-at="2026-09-17T22:27:27 IST" duration-ms="60336">
+    <test started-at="2026-09-18T12:02:49 IST" name="apiTest" finished-at="2026-09-18T12:03:42 IST" duration-ms="52563">
       <class name="api.test.MultipleUser">
-        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:26:39 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-17T22:26:48 IST" duration-ms="8923" status="PASS">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:02:50 IST" name="classSetup" finished-at="2026-09-18T12:02:50 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:02:55 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-18T12:03:02 IST" duration-ms="6371" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createsMultipleUsers -->
-        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:26:48 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-17T22:26:49 IST" duration-ms="1144" status="PASS">
+        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:02 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-18T12:03:03 IST" duration-ms="1194" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,7 +103,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createsMultipleUsers -->
-        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:26:49 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-17T22:26:50 IST" duration-ms="1144" status="PASS">
+        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:03 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-18T12:03:04 IST" duration-ms="1135" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -145,7 +149,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createsMultipleUsers -->
-        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:26:50 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-17T22:26:51 IST" duration-ms="1163" status="PASS">
+        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:04 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-18T12:03:05 IST" duration-ms="1221" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -191,7 +195,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createsMultipleUsers -->
-        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:26:51 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-17T22:26:52 IST" duration-ms="1194" status="PASS">
+        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:05 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-18T12:03:06 IST" duration-ms="1128" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -237,7 +241,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createsMultipleUsers -->
-        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:26:52 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-17T22:26:54 IST" duration-ms="1219" status="PASS">
+        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:06 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-18T12:03:08 IST" duration-ms="1162" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -283,7 +287,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createsMultipleUsers -->
-        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:26:54 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-17T22:26:55 IST" duration-ms="1149" status="PASS">
+        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:08 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-18T12:03:09 IST" duration-ms="1130" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -329,7 +333,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createsMultipleUsers -->
-        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:26:55 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-17T22:26:56 IST" duration-ms="1125" status="PASS">
+        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:09 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-18T12:03:10 IST" duration-ms="1118" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -375,7 +379,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createsMultipleUsers -->
-        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:26:56 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-17T22:26:57 IST" duration-ms="1113" status="PASS">
+        <test-method signature="createsMultipleUsers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:10 IST" name="createsMultipleUsers" data-provider="allData" finished-at="2026-09-18T12:03:11 IST" duration-ms="1096" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -421,7 +425,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createsMultipleUsers -->
-        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:26:57 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-17T22:26:59 IST" duration-ms="1426" status="PASS">
+        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:11 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-18T12:03:12 IST" duration-ms="1216" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -432,7 +436,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAlluser -->
-        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:26:59 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-17T22:27:00 IST" duration-ms="1104" status="PASS">
+        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:12 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-18T12:03:14 IST" duration-ms="1193" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -443,7 +447,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAlluser -->
-        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:27:00 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-17T22:27:01 IST" duration-ms="1161" status="PASS">
+        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:14 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-18T12:03:15 IST" duration-ms="1142" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -454,7 +458,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAlluser -->
-        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:27:01 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-17T22:27:02 IST" duration-ms="1138" status="PASS">
+        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:15 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-18T12:03:16 IST" duration-ms="1122" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -465,7 +469,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAlluser -->
-        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:27:02 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-17T22:27:03 IST" duration-ms="1109" status="PASS">
+        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:16 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-18T12:03:17 IST" duration-ms="1129" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -476,7 +480,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAlluser -->
-        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:27:03 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-17T22:27:04 IST" duration-ms="1094" status="PASS">
+        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:17 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-18T12:03:18 IST" duration-ms="1187" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -487,7 +491,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAlluser -->
-        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:27:04 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-17T22:27:05 IST" duration-ms="1123" status="PASS">
+        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:18 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-18T12:03:19 IST" duration-ms="1191" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -498,7 +502,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAlluser -->
-        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:27:05 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-17T22:27:07 IST" duration-ms="1155" status="PASS">
+        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:19 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-18T12:03:21 IST" duration-ms="1162" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -509,7 +513,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAlluser -->
-        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:27:07 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-17T22:27:08 IST" duration-ms="1149" status="PASS">
+        <test-method signature="getAlluser(java.lang.String)[pri:2, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:21 IST" name="getAlluser" data-provider="userName" finished-at="2026-09-18T12:03:22 IST" duration-ms="1118" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -520,7 +524,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAlluser -->
-        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:27:08 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-17T22:27:09 IST" duration-ms="1123" status="PASS">
+        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:22 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-18T12:03:23 IST" duration-ms="1160" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -531,7 +535,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAllUser -->
-        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:27:09 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-17T22:27:10 IST" duration-ms="1185" status="PASS">
+        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:23 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-18T12:03:24 IST" duration-ms="1109" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -542,7 +546,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAllUser -->
-        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:27:10 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-17T22:27:11 IST" duration-ms="1103" status="PASS">
+        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:24 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-18T12:03:25 IST" duration-ms="1193" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -553,7 +557,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAllUser -->
-        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:27:11 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-17T22:27:13 IST" duration-ms="1114" status="PASS">
+        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:25 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-18T12:03:27 IST" duration-ms="1200" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -564,7 +568,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAllUser -->
-        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:27:13 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-17T22:27:14 IST" duration-ms="1158" status="PASS">
+        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:27 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-18T12:03:28 IST" duration-ms="1107" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -575,7 +579,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAllUser -->
-        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:27:14 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-17T22:27:15 IST" duration-ms="1167" status="PASS">
+        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:28 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-18T12:03:30 IST" duration-ms="1968" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -586,7 +590,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAllUser -->
-        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:27:15 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-17T22:27:16 IST" duration-ms="1145" status="PASS">
+        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:30 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-18T12:03:31 IST" duration-ms="1538" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -597,7 +601,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAllUser -->
-        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:27:16 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-17T22:27:17 IST" duration-ms="1156" status="PASS">
+        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:31 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-18T12:03:32 IST" duration-ms="1145" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -608,7 +612,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAllUser -->
-        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@39c11e6c]" started-at="2026-09-17T22:27:17 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-17T22:27:18 IST" duration-ms="1097" status="PASS">
+        <test-method signature="deleteAllUser(java.lang.String)[pri:3, instance:api.test.MultipleUser@436390f4]" started-at="2026-09-18T12:03:32 IST" name="deleteAllUser" data-provider="userName" finished-at="2026-09-18T12:03:33 IST" duration-ms="1115" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -621,23 +625,23 @@
         </test-method> <!-- deleteAllUser -->
       </class> <!-- api.test.MultipleUser -->
       <class name="api.test.UserTest">
-        <test-method is-config="true" signature="setUpData()[pri:0, instance:api.test.UserTest@68ed96ca]" started-at="2026-09-17T22:27:18 IST" name="setUpData" finished-at="2026-09-17T22:27:19 IST" duration-ms="369" status="PASS">
+        <test-method is-config="true" signature="setUpData()[pri:0, instance:api.test.UserTest@54e7391d]" started-at="2026-09-18T12:03:33 IST" name="setUpData" finished-at="2026-09-18T12:03:34 IST" duration-ms="309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpData -->
-        <test-method signature="testUserCreation()[pri:1, instance:api.test.UserTest@68ed96ca]" started-at="2026-09-17T22:27:19 IST" name="testUserCreation" finished-at="2026-09-17T22:27:20 IST" duration-ms="1215" status="PASS">
+        <test-method signature="testUserCreation()[pri:1, instance:api.test.UserTest@54e7391d]" started-at="2026-09-18T12:03:34 IST" name="testUserCreation" finished-at="2026-09-18T12:03:35 IST" duration-ms="1165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUserCreation -->
-        <test-method signature="testGetUser()[pri:2, instance:api.test.UserTest@68ed96ca]" started-at="2026-09-17T22:27:20 IST" name="testGetUser" finished-at="2026-09-17T22:27:21 IST" duration-ms="1136" status="PASS">
+        <test-method signature="testGetUser()[pri:2, instance:api.test.UserTest@54e7391d]" started-at="2026-09-18T12:03:35 IST" name="testGetUser" finished-at="2026-09-18T12:03:36 IST" duration-ms="1086" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUser -->
-        <test-method signature="updateUserInfo()[pri:3, instance:api.test.UserTest@68ed96ca]" started-at="2026-09-17T22:27:21 IST" name="updateUserInfo" finished-at="2026-09-17T22:27:25 IST" duration-ms="3540" status="PASS">
+        <test-method signature="updateUserInfo()[pri:3, instance:api.test.UserTest@54e7391d]" started-at="2026-09-18T12:03:36 IST" name="updateUserInfo" finished-at="2026-09-18T12:03:39 IST" duration-ms="3403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUserInfo -->
-        <test-method signature="deleteUserinfo()[pri:4, instance:api.test.UserTest@68ed96ca]" started-at="2026-09-17T22:27:25 IST" name="deleteUserinfo" finished-at="2026-09-17T22:27:27 IST" duration-ms="2323" status="PASS">
+        <test-method signature="deleteUserinfo()[pri:4, instance:api.test.UserTest@54e7391d]" started-at="2026-09-18T12:03:39 IST" name="deleteUserinfo" finished-at="2026-09-18T12:03:42 IST" duration-ms="2334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUserinfo -->

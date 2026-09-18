@@ -16,27 +16,30 @@ import net.bytebuddy.asm.Advice.This;
 public class UserTest {
 	Faker faker;
 	User userPayload;
+	public UserEndPoints userEndPoints;
 
 	@BeforeClass
-	public void setUpData() {
+	public void setUpData() throws IOException {
 		faker = new Faker();
 		userPayload = new User(faker.idNumber().hashCode(), faker.name().username(), faker.name().firstName(),
 				faker.name().lastName(), faker.internet().safeEmailAddress(), faker.internet().password(5, 10),
 				faker.phoneNumber().cellPhone(), 0);
+		userEndPoints=new UserEndPoints();
+		
 
 	}
 
 	@Test(priority = 1)
 	public void testUserCreation() throws IOException {
 		System.out.println("=========Post Requests=======");
-		Response response = UserEndPoints.createUser(userPayload); 
+		Response response = userEndPoints.createUser(userPayload); 
 		response.then().statusCode(200).log().all();
 	}
 
 	@Test(priority = 2)
 	public void testGetUser() {
 		System.out.println("=========Get Request=======");
-		Response response = UserEndPoints.getUser(userPayload.getUsername());
+		Response response = userEndPoints.getUser(userPayload.getUsername());
 		Assert.assertEquals(response.getStatusCode(), 200);
 		String userbody = response.getBody().asPrettyString();
 		System.out.println("Response Data-->" + userbody);
@@ -47,12 +50,12 @@ public class UserTest {
 	public void updateUserInfo() {
 		System.out.println("=========Put Request=======");
 		userPayload.setFirstName(faker.name().firstName());
-		Response response = UserEndPoints.updateUser(userPayload, this.userPayload.getUsername());
+		Response response = userEndPoints.updateUser(userPayload, this.userPayload.getUsername());
 		response.then().statusCode(200);
 		String body = response.getBody().asPrettyString();
 		System.out.println("Body:-->" + body);
 
-		Response response2 = UserEndPoints.getUser(userPayload.getUsername());
+		Response response2 = userEndPoints.getUser(userPayload.getUsername());
 		Assert.assertEquals(response2.getStatusCode(), 200);
 		String userbody = response2.getBody().asPrettyString();
 		System.out.println("Response Data-->" + userbody);
@@ -64,10 +67,10 @@ public class UserTest {
 	@Test(priority = 4)
 	public void deleteUserinfo() {
 		System.out.println("=========Delete Request=======");
-		Response response = UserEndPoints.deleteUser(this.userPayload.getUsername());
+		Response response = userEndPoints.deleteUser(this.userPayload.getUsername());
 		response.then().statusCode(200);
 
-		Response response2 = UserEndPoints.getUser(userPayload.getUsername());
+		Response response2 = userEndPoints.getUser(userPayload.getUsername());
 		String userBody = response2.getBody().asPrettyString();
 		System.out.println("user Body-->" + userBody);
 		Assert.assertEquals(response2.getStatusCode(), 404);
