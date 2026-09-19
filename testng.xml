@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="Suite"  thread-count="5">
 
 	<listeners>
 		<listener class-name="api.utilities.ExtendReports" />
 	</listeners>
 
-	<test thread-count="5" name="apiTest">
+	<test name="apiTest">
 		<classes>
 			<class name="api.test.MultipleUser" />
 			<class name="api.test.UserTest" />
