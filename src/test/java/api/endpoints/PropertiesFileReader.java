@@ -16,4 +16,8 @@ public class PropertiesFileReader {
 		pr.load(reader);
 	}
 
+	public String getUrl(String key) {
+		return pr.getProperty(key);
+	}
+
 }
